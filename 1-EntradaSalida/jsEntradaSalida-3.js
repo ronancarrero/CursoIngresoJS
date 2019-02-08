@@ -4,10 +4,8 @@ function mostrar()
 {
 
 	var nombre;
-	elNombre.value="ronan carrero";
-	nombre=elNombre.value;
+	nombre=elNombre.value="ronan carrero"
 	alert(nombre);
-
 	
 }
 
