@@ -9,6 +9,6 @@ function mostrar()
 	edad=laEdad.value;
 
 
-	alert(nombre + " " + edad);
+	alert("usted se llama " + nombre + "y tiene " + edad+ " años");
 }
 

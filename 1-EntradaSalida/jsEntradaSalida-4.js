@@ -8,7 +8,7 @@ function mostrar()
 	var nombre;
 	nombre= prompt("ingrese su nombre:");
 	//nombre=elNombre.value;
-	document.getElementById('elNombre').value=nombre ;
+	document.getElementById('elNombre').value = nombre;
 
 
 
