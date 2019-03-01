@@ -6,9 +6,6 @@ function mostrar()
 
 	if (años==15)
 	{
-		alert("niña bonita");	
+		console.log("niña bonita");	
 	}
-
-
-
 }

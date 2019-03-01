@@ -5,23 +5,13 @@ function sumar()
 {
 	var primerNumero;
 	var segundoNumero;
-	var suma;
 
-	primerNumero = numeroUno.value;
-	segungoNumero = numeroDos.value;
+	primerNumero = document.getElementById('numeroUno').value;
+	segundoNumero = document.getElementById('numeroDos').value;
 
+	primerNumero = parseInt(primerNumero);
+	segundoNumero = parseInt(segundoNumero);
 
-	//se toman los datos y se transforman en nùmero con el parseInt.
-	primerNumero = parseInt (primerNumero);
-	segungoNumero = parseInt (segungoNumero);
-
-
-	suma = primerNumero + segungoNumero;
-
-	alert("la suma es: " + suma);
-
-
-
-
+	alert(primerNumero + segundoNumero);
 }
 

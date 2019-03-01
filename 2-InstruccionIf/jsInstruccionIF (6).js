@@ -1,26 +1,24 @@
 function mostrar()
 {
-
 	var años;
 	var mensaje;
 
 	años = document.getElementById('edad').value;
 
-
-	if(años >=18)
-
+	if(años >18)
 	{
-		mensaje="es mayor de edad";
+		mensaje = "ES MAYOR DE EDAD";
 	}
 		else
 		{
-			mensaje="es un niño";
+			if(años<13)
+			{
+				mensaje ="ES UN NIÑO";
+			}
+			else
+			{
+				mensaje="ES ADOLECENTE";
+			}
 		}
-
-	if (años >12 && años <18)
-	{
-		mensaje="es un adolecente";
-	}
-
-	alert(mensaje);
+	console.log(mensaje);
 }

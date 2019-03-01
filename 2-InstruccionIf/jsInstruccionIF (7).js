@@ -1,18 +1,17 @@
 function mostrar()
 {
-
 	var años;
-	var estado;
+	var estadoCivil;
 	var mensaje;
 
 	años = document.getElementById('edad').value;
-	estado = document.getElementById('estadoCivil').value;
-	
+	estadoCivil = document.getElementById('estadoCivil').value;
 
-	if (años <18 && estado != "Soltero")
+
+	if(años <18 && estadoCivil != "Soltero")
 	{
-		mensaje="Es muy pequeño para NO ser soltero"
-		alert(mensaje);
+		mensaje = "es muy pequeño para NO estar Soltero";
+		console.log(mensaje);
 	}
-	
+		
 }

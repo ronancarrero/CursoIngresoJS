@@ -4,12 +4,10 @@ function mostrar()
 	var mensaje;
 
 	años = document.getElementById('edad').value;
-	//años = parse(años);
 
-	if (años >12 && años <18 )
+	if(años<18 && años >12)
 	{
-		alert("Es un adolecente");
-		
+		mensaje = "ES UN ADOLECENTE";
+		console.log(mensaje);
 	}
-
 }

@@ -4,13 +4,11 @@
 */
 function mostrar()
 {
-
 	var nombre;
-	nombre= prompt("ingrese su nombre:");
-	//nombre=elNombre.value;
-	document.getElementById('elNombre').value = nombre;
 
+	nombre = prompt("Ingrese nombre");
 
-
+	//codigo para mostar en cuadro de texto
+	document.getElementById('elNombre').value=nombre;
 }
 
